@@ -19,6 +19,27 @@ header{
 
   
 }
+footer{
+    display: inline-flex;
+    background-color: #190061;
+    width: 100%;
+}
+#footerName{
+    color: white;
+    font-family: 'Lato';
+    font-size: smaller;
+}
+#footLinks{
+    padding: 5px;
+margin-top: 10px;
+    margin-left: 200px;
+    font-family: 'Lato';
+    color: rgba(255, 255, 255, 0.707);
+}
+a #footLinks :hover{
+    color: #CF8383;
+    text-decoration: underline;
+}
 body{
     padding: 0;
     margin: 0;

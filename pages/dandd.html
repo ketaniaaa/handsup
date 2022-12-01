@@ -10,7 +10,7 @@
     <!--INTERNAL SCRIPTS AND STYLES-->
     <link rel="stylesheet" href="../styles/design.css">
     <script src="../js/design.js" async></script>
-    <script src="../js/main.js" async></script>
+  
 </head>
 <body>
     <main id="main">
@@ -18,18 +18,23 @@
         <img src="../assets/banner.png" alt="the intro banner" id="banner">
         <h1>Hands Up</h1>
     </section>
-<a href="../index.html" id="back">back to site</a>
+    <a href="https://hands-up-sign-language.netlify.app/"> back to site</a>
     <section>
         <h2 class="entry-title">Overview</h2>
 
-        <p class="p-summary">Brief description</p>
+        <p class="p-summary">Hands Up! aims to create a space for learning South African Sign Language that is interactive and accessible to all ages. 
+            The final deliverable for my Digital Arts Project is a proof-of-concept prototype that hints at future functionality. This is the first mobile product that 
+            I have ever created. 
+
+            To find my final rubric and reflection, with references for WSOA4105, click <a href="reflection.html"> here</a>
+        </p>
 
 
-        <p class="p-summary"> To find my final rubric and reflection, with references for WSOA4105, click <a href="reflection.html"> here</a></p>
-      <div id="introstuff">
+   
+      <div id="introstuff" style="margin-left: 25%;">
 
      
-        <span>
+        <span >
             <h3>Role:</h3>
             <p>UX/UI Design, Illustration, Front-End Development
                  </p>
@@ -70,8 +75,18 @@
 
     </ul>
     <h3 id="user-personas">User Research</h3>
-    <p> Conducted a survey of 25 people and attached questionare to say that the speak 1 language would like kids to learn more</p>
+    <p>The user research was conducted by providing a short questionaire to 22 people. I tried to vary the group of people by asking friends 
+        who have majored in language during university and deaf potential users. The questions on this survey included: <br/>
+    <ol>
+        <li> How langauges do you speak?</li>
+        <li> Would you consider learning SASL?</li>
+        <li> Why do you want to learn SASL if you said yes to the previous question?</li>
+        <li> Have you used a language learning application?</li>
+        <li> If you have tried to learn sign language, what issues do you face when learning?</li>
+    </ol>
+    </p>
     <h4>Personas</h4>
+    <p>The personas listed below are summarized findings of my user research that encompasses core goals of the potential user base.</p>
     <article id="personaCard"> 
         <h5>Sage</h5>
         <p id="persona-description"> Age: 22, Teacher </p>
@@ -95,7 +110,11 @@
 </article>
   
 <h4>Results </h4>
-<p>Needs to be more interactive, colourful and accessible to a wider age range. Feedback on appropriate movement </p>
+<p> The persona creation and user research resulted in a few frequent observations. Users would like more interactivity in their learning of sign language. Alot of the 
+    availble content consist of video tutorials. For more engaging learning, users would benefit from hands-on learning. Another important insight is that there is a 
+    lack of content regarding the learning of South African Sign Language for younger kids. This means that it would be advantageous to create a product that is colourful and 
+    fun illustrations. The use of colour is therefore emphasized as bold and interesting colour is enjoyable to younger audiences.
+</p>
 
 
     </section>
@@ -106,11 +125,15 @@
   <h3 id="user-journey">User Journey</h3>
   <img src="../assets/flows.png" alt="user journey map" id="flows" style="align-self: center;">
   <p> A user journey maps out the emotions and actions that drive the user to use the application. This aids in the identification
-    of goals and motivations for the user
+    of goals and motivations for the user. This summarizes the intended effect of Hands Up!
   </p>
   <h3 id="user-flow">User Flow</h3>
   <img src="../assets/Site Architecture.png" alt="User journey map" id="flows">
-<p>A user flow map for the application development</p>
+<p>This user flow map is helpful in two ways: This aids in the planning of the architecture of the site yet also aids in highlighing important features needed based on user research.
+    Since interactivity is a key want of the user, access to quizzez and AI Interactions should be a core feature and therefore easily availble via first pick-up of the app. This user flow also promotes
+    basic <a href="https://www.uxdesigninstitute.com/blog/10-user-interface-guidelines/" target="_blank"> UI Guidelines</a> easy navigation. Benyon (2013) explains that 
+    a key factor of enjoyable user experience is ensuring a low cognitive load for the user. This can be excuted by ensuring that key features do not take more that three clicks/touches to naivgate to.
+</p>
 <h3>Site Architecture</h3>
 <img src="../assets/sitearchi.png" alt="" id="flows">
 
@@ -118,11 +141,23 @@
 
 <section id="design">
     <h2>Design Guidelines</h2> <hr>
-    <p>Material UI design by google</p>
+    <p>The design process that I followed was the Material UI Design system by Google. MUI is widely used, mainly for Android development yet Googles interface is 
+        experienced cross-platform and therefore represents a convention of UI design (Clifton 2015, pp22). Since my application is cross-platform I chose to follow this system of guidelines.
+    <br> Some key features that have been implemented in the design process are choices of typography, elevation and navigation labelling. </p>
   
     <h3>Style Guide</h3>
-    <img src="../assets/Styeguide.png" alt="style guide" style="max-width: 90%; margin-left: 7.5%;">
-    <p>Style guide write up</p>
+    <img src="../assets/Styeguide.png" alt="style guide" style="max-width: 90%; margin-left: 4.5%;">
+    <p>When creating my style guide, I ensured that I adhered to core priciples of MUI. In regard to typography, I have chosen to ensure that my enitre site is
+        presented in a highly readable and accessible fonts. For this reason, I chose sans-serif fonts. MUI states that expressive fonts should be avoided for important information as these fonts are diffucult to read 
+        and clutter the page. <br>
+        The colours were chosen with two factors in mind: appeal to a wide age range and contrast. Blue, red and yellow are the primary colours and are therefore 
+        a classic palette. While keeping colour theory in mind, blue tends to represent Trustworthiness and Intelligence. Since this is a learning application, these are 
+        emotions I would like to be encompassed in Hands Up! Pink was selected because this is a more soft colour that is fun and appealing. The boldness of yellow contrasts greatly against dark blue and also adds a 
+        streak of boldness to capture the attention of the user.  I have shifted these values to create my main colour palette. Babich (2020) states that a key concept of using color is balancing the use of colour and suggests breaking
+        up a triadic scheme into a main colour, featuring 60% of the space followed by colour 2 for 30% and colour 3 for 10%. I have made blue my main colour as my chosen shade is dark 
+        enough to subsitute the use of black. Yellow is the least featured colour despite being a mustard shade because yellow does not contrast well against other colours and therefore can lesson the 
+        readability. My secondary colours are derivitive tints of primary colours and red and greens to indicate right and wrong. 
+    </p>
 
  <h3>Illustration</h3>
  <h4>Logo Design</h4>
@@ -137,8 +172,8 @@
  </p>
 
  <h5>Final Logo Process</h5>
- <img src="../assets/designhands.png" alt="" style="max-width: 90%; margin-left: 22%;">
- <img src="../assets/logo.png" alt="" style="max-width: 90%; margin-left: 20%;">
+ <img src="../assets/designhands.png" alt="" style="max-width: 90%; margin-left: 12%;">
+ <img src="../assets/logo.png" alt="" style="max-width: 90%; margin-left: 10%;">
  <p>For the logo, I knew that I wanted to include elements that looked hand drawn. There has been a recent spike in what is known as <em>corporate tech art</em>, which 
 tends to make use of rounded flat shaded vector drawings. These seemed a bit lifeless to me and banal. Based on my feedback, users would like an app that makes 
 learning fun and playful. I have ensured that elements still look polished by creating a logo that is flat shaded and minimally designed, yet I have added 
@@ -187,20 +222,32 @@ allowing space for play and fun. Here I have explored the logo variations in siz
     <h2>Development</h2>
     <hr>
     <h3>Teachable Machine and Tensorflow.js</h3>
-    <p>Write up about teachable machine and tensorflow</p>
+    <p> Teachable machine is an in-browser open source software that allows for easy training of models that forgoes the use of python rendering. I chose Teachable Machine because 
+        I have not worked with computer vision before. This made training easy as I had to upload images of sign poses and export the model as a Tensorflow file. I trained the model for fingerspelling using over 500 pictures for each letter and using 4 different hands.
+        This means that the model is quite small and therefore is glitchy when in use at times. 
+
+    
+    </p>
+    <p>Tensorflow.js is a platform that supports the creation and training of models and the deployment of these models into production. Tensorflow was originally a python framework yet the creation of the Javascript 
+        form helps to deploy models onto the internet quickly. Tensorflow is a lot easier to use in the browser as opposed to a Native Application. Tensorflow and React Native is still in its infancy
+    and there is even less support for Expo development. The solution to this was using PyTorch. I created a simple image recognition application using PyTorch and Expo yet there was a major issue: this method required creating and training neural networks using python if I wanted to use my own models.
+    As SASL is incredibly low resource, I would have to use my own model and thus I decided that learning python for a simple feature intergration within the time frame for final submission would be unattainable. 
+    This proved diffucult and therefore creating a working mobile intergration of the models was not possible. To combat this, I have used my trained models in my website. I would like to intergrate the AI into my application following the submission of DAP as I have thourougly enjoyed exploring
+artificial intelligence.</p>
     <img src="" alt="training the AI">
-    <h4>Training Process</h4>
+   
     <h3>React Native</h3>
-    <p>react native documentation</p>
+    <p>React Native is a typescript framework that allows for cross-platform development. I have chosen to use React Native because I have understanding of JavaScript and
+        the basic concepts of component creation and hooks because of Interactive Media. This seemed like the obvious method to develop an application rather than creating indivdual applications for iOS and
+        android respectively. This process was a long period of learning and therefore majority of this semester has consisted of self-learning. The adaptation from web to
+        mobile has been a bigger leap than initally anticipated. Regardless of this, I believe that I have managed to produce a satisfactory prototype. 
 
-    <h3>Expo</h3>
-    <p>Expo defense and why</p>
+        Expo has been use for easy deployment in the future and support for distrubuting my application. Expo also allowed me to test the application on my own devices without switching operating systems or having 
+        to change my development environment to Android Studio. I initally began development using only the React Native CLI rather than expo because there are more modules and 
+        dependacies available in this mode of development yet I found the mix of Java and Typescript alot to handle and I found that I did not require the external dependacies available to non-Expo development. 
+    </p>
 
-    <h3>Netlify</h3>
-    <p>static site for write up</p>
-
-    <h3>P5.js</h3>
-    <p>helps with easy cam recognition</p>
+    
 </section>
 
 <section>
@@ -221,7 +268,7 @@ allowing space for play and fun. Here I have explored the logo variations in siz
     Gabriel encouraged my exploration of Machine Learning and taught me the basics of what computer vision entails. Gabriel has been a wealth of knowledge and support through the project.
     Finally Kanistha for spending hours infront of a web camera posing for teachable machine and giving me feedback on the UX/UI. I would not have been able to create a project to be proud of without the support of my loved ones.
 </p>
-
+<h2>References</h2>
 </main>
 </body>
 </html>
