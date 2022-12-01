@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:ital,wght@0,600;0,700;0,900;1,400&display=swap');
+
+/*scroll bar */
+
+header{
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #1a0069;
+    text-decoration: none;
+    border-bottom: 2px solid #190061;
+    width: 100%;
+    background-color: #bca1a1;
+    top: 0;
+    margin: none;
+
+  
+}
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    
+}
+#navA{
+    text-decoration: none;
+    padding-left: 100px;
+    padding-right: 100px;
+  align-self: center;
+   justify-self: center;
+   color: #190061 ;
+}
+#navLogo{
+    max-width: 70px;
+ }
+h1{
+    font-family: 'Poppins';
+    color: #190061;
+    padding-left: 40px;
+    font-size: 60px;
+    z-index: 2;
+}
+h2{
+    font-family: 'Lato';
+    color: #180061;  
+    padding-left: 20px;
+}
+#lessonBox{
+    display: inline-flex;
+  padding-left: 170px;
+}
+#lessonArticle{
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 16px;
+    box-shadow: 8px 12px 33px -2px rgba(0,0,0,0.45);
+    -webkit-box-shadow: 8px 12px 33px -2px rgba(0,0,0,0.45);
+    -moz-box-shadow: 8px 12px 33px -2px rgba(0,0,0,0.45);
+}
+#lessonLink :hover{
+    background-color: rgba(196, 142, 140, 0.495);
+  
+}
+#lessonCardImg{
+    max-width: 100px;
+    padding-left: 30x;
+}
+#lessonStuff{
+    display: inline-flex;
+}
+
+#lessonSub{
+    padding-top: none;
+    margin-top: none;
+}
+
+
+a{
+    text-decoration: none;
+}

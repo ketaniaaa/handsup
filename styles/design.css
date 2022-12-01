@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:ital,wght@0,600;0,700;0,900;1,400&display=swap');
+@font-face {
+    font-family: 'Saslkg';
+    src: url('../assets/Saslkg-Regular.otf'); /* IE9 Compat Modes */
+  /*  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     /* Pretty Modern Browsers */
+     src: url('../assets/Saslkg-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       
+  }
+/*#demoChange :hover{
+    font-family: 'Saslkg';
+    font-size: larger;
+    transition-delay: 3s;
+}*/
+/*******************************************************************************************************************************/
+
+/*.aNav:hover{
+    color: #5c6a55;
+    text-decoration: underline;
+}
+.aNav :active{
+    color: #5c6a55;
+    text-decoration: underline;
+}*/
+header{
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #1a0069;
+    text-decoration: none;
+  
+}
+
+.navImgA{
+max-width: 60px;
+padding: 0;
+margin: none;
+transform: translateY(-20px);
+transform: translateX(20px);
+z-index: -1;
+}
+.navTitle{
+    text-decoration: none;
+ padding-top: 10%;
+ padding-left: 20%;
+ color: inherit;
+ z-index: 2;
+}
+nav{
+    display: inline-flex;
+position: absolute;
+left: 60%;
+z-index: 2;
+}
+
+.ulNav{
+    display: inline-flex;
+    text-decoration: none;
+    list-style: none;
+
+
+}
+.liNav{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.aNav{
+    text-decoration: none;
+    color: inherit;
+}
+.aNav:hover{
+    color: #5c6a55;
+    text-decoration: underline;
+}
+.aNav :active{
+    color: #5c6a55;
+    text-decoration: underline;
+}
+
+
+footer{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+ 
+    font-family: 'Lato', sans-serif;
+    font-size: small;
+    background-color: #cf8383;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    max-height: 40px;
+}
+
+/*footer*/
+.universalFoot{
+    position: relative;
+    bottom: 0;
+    z-index: 2;
+    padding: none;
+    margin: none;
+}
+.ulFoot{
+    display: inline-flex;
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+    color:#1a0069;
+ 
+
+}
+.liFoot{
+    padding-right: 10px;
+    color: inherit;
+    color:#1a0069;
+}
+.aFoot{
+    color:#1a0069;
+    text-decoration: none;
+    color: inherit;
+
+}
+.aFoot :hover{
+    text-decoration: underline;
+    color: #b08714;
+}
+.credits{
+    color:#1a0069;
+}
+/**/
+/*/////////////////////////////////////////////////////////MAIN PARTS AND HEADINGS//////////////////////////////////////////////////////////////////////*/
+main{
+    display: flex;
+    flex-direction: column;
+   align-content: center;
+   justify-content: center;
+    background-color: #cf83832b;
+    overflow-x: hidden;
+   
+}
+body{
+    background-color: #cf83832b;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+   color: #190061;
+font-size: 0px;
+}
+h2{
+    
+    font-family: 'Poppins', sans-serif;
+   color: #190061;
+   font-size: 60px;
+  margin: auto;
+  margin-left: 2%;
+
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+   color: #180061cd ;
+   font-size: 40px;
+   margin-left: 2%;
+   
+ }
+h4{
+    font-family: 'Poppins', sans-serif;
+   color: #180061b2;
+   font-size: 34px;
+   margin: auto;
+  
+   margin-left: 2%;
+}
+h5{
+    font-family: 'Poppins', sans-serif;
+    color: #1800619b;
+    font-size: 30px;
+    margin: auto; 
+   
+    margin-left: 2%;
+}
+h6{
+   font-family: 'Poppins', sans-serif;
+   align-self: center;
+   padding-left: 40%;
+   color: #6e2f2f;
+
+   margin-left: 2%;
+}
+hr{
+    border-top: 5px solid #190061;
+}
+p{
+   font-family: 'Lato', sans-serif;
+   color: #260980;
+   max-width: 80%;
+   padding-left: 10%;
+   padding: 5%;
+}
+li{
+   font-family: 'Lato', sans-serif;
+   color: #260980;  
+}
+
+#introstuff{
+   display: inline-flex;
+}
+
+#banner{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+}
+#flows{
+  /*  max-width: 90%;
+    margin-left: 5%;*/
+    max-width: 70%;
+    margin-left: 15%;
+    padding: 0;
+  
+}
+#styleguideImg{
+  /*  max-width: 95%;
+    margin-left: 5%; */
+    max-width: 95%;
+    margin-left: 10%;
+    padding: 0;
+    margin-right: none;
+}
+#characterDesign{
+    max-width: 90%;
+    margin-left: 10%;
+    padding: none;
+
+}
+#flow-andjourney{
+    align-items: center;
+    align-content: center;
+    
+}
