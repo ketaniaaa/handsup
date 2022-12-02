@@ -19,6 +19,9 @@ header{
 
   
 }
+canvas {
+    display: block;
+  }
 footer{
     display: inline-flex;
     background-color: #190061;
