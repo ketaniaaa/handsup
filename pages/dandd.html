@@ -57,23 +57,29 @@
     <section class="p-section p-catergory">
         <h2 class="section-title" id="background-info"> Background</h2>
         <hr>
-        <p class="p-summary"> Write up about why this app is relevant. AKA stats of SASL speakers and the ability to teach young
-            children and parents SASL for communication
+        <p class="p-summary"> South Africa has a deaf population of approximately 4 million people yet only 240 000 South African Sign Language speakers. This causes 
+            a break in communication between an already marginalized group of people. Hands Up! is a free application to learn sign language using either your phone or the web. Hands Up! is aimed
+            at both hearing and non-hearing users of all ages. 
         </p>
         <h3 id="problem">Problem</h3>
-        <p></p>
+        <p> There is a lack of free engaging resources to learn SASL. This lack of resources results in less people speaking the language and further 
+            isolating the deaf community 
+        </p>
         <h3>Solution</h3>
-        <p></p>
+        <p> Hands Up! will utilized features such as translation, AI and tests to track the progress of SASL learning and encourage deeper engagement with the content.</p>
     </section>
 
     <section> <h2 id="design-methodology">The Making of Hands Up</h2>
-    <p> Design proces used aka double diamond process</p>
-    <img src="" alt="double diamond design">
+  
+    <!--<img src="" alt="double diamond design">-->
     <h3 id="competitor-analysis">Competitor Analysis</h3>
-    <p>this app is aimed to be a non-profit application to making learning accessible</p>
-    <ul>
-
-    </ul>
+    <p>Before I dive into the competitor research, it is important to note that this is largely to understand
+        what features are missing from the market rather than attempting to monitize this application. </p>
+        <p>There is currently one application available that is for learning South African Sign Language. This application is called SASL DEAFinition. The fact that there 
+            is only a single application available clearly indicates a gap in the market. This application acts more of a dictionary rather than a language teaching application. 
+        </p>
+        <p>Other online resources too tend to act as compilations of words and phrases rather than teach or encourage interactive learning. </p>
+  
     <h3 id="user-personas">User Research</h3>
     <p>The user research was conducted by providing a short questionaire to 22 people. I tried to vary the group of people by asking friends 
         who have majored in language during university and deaf potential users. The questions on this survey included: <br/>
@@ -211,8 +217,8 @@ allowing space for play and fun. Here I have explored the logo variations in siz
     <img src="../assets/alowfidelity.png" alt="low fidelity wireframes" style="max-width: 95%; margin-left: 2.5%;">
    
     <h3>High Fidelity Wireframes</h3>
-    <p>write up of high fidelity wireframes</p>
-
+    <img src="../assets/hfwireframes.png" alt="low fidelity wireframes" style="max-width: 95%; margin-left: 2.5%;">
+    <img src="../assets/boringwf.png" alt="low fidelity wireframes" style="max-width: 95%; margin-left: 2.5%;">
     <h3>Figma Prototype</h3>
     <img src="" alt="figma protype">
 </section>
@@ -228,13 +234,7 @@ allowing space for play and fun. Here I have explored the logo variations in siz
 
     
     </p>
-    <p>Tensorflow.js is a platform that supports the creation and training of models and the deployment of these models into production. Tensorflow was originally a python framework yet the creation of the Javascript 
-        form helps to deploy models onto the internet quickly. Tensorflow is a lot easier to use in the browser as opposed to a Native Application. Tensorflow and React Native is still in its infancy
-    and there is even less support for Expo development. The solution to this was using PyTorch. I created a simple image recognition application using PyTorch and Expo yet there was a major issue: this method required creating and training neural networks using python if I wanted to use my own models.
-    As SASL is incredibly low resource, I would have to use my own model and thus I decided that learning python for a simple feature intergration within the time frame for final submission would be unattainable. 
-    This proved diffucult and therefore creating a working mobile intergration of the models was not possible. To combat this, I have used my trained models in my website. I would like to intergrate the AI into my application following the submission of DAP as I have thourougly enjoyed exploring
-artificial intelligence.</p>
-    <img src="" alt="training the AI">
+    
    
     <h3>React Native</h3>
     <p>React Native is a typescript framework that allows for cross-platform development. I have chosen to use React Native because I have understanding of JavaScript and
@@ -246,21 +246,37 @@ artificial intelligence.</p>
         to change my development environment to Android Studio. I initally began development using only the React Native CLI rather than expo because there are more modules and 
         dependacies available in this mode of development yet I found the mix of Java and Typescript alot to handle and I found that I did not require the external dependacies available to non-Expo development. 
     </p>
-
+    <p>Tensorflow.js is a platform that supports the creation and training of models and the deployment of these models into production. Tensorflow was originally a python framework yet the creation of the Javascript 
+        form helps to deploy models onto the internet quickly. Tensorflow is a lot easier to use in the browser as opposed to a Native Application. Tensorflow and React Native is still in its infancy
+    and there is even less support for Expo development. The solution to this was using PyTorch. I created a simple image recognition application using PyTorch and Expo yet there was a major issue: this method required creating and training neural networks using python if I wanted to use my own models.
+    As SASL is incredibly low resource, I would have to use my own model and thus I decided that learning python for a simple feature intergration within the time frame for final submission would be unattainable. 
+    This proved diffucult and therefore creating a working mobile intergration of the models was not possible. To combat this, I have used my trained models in my website. I would like to intergrate the AI into my application following the submission of DAP as I have thourougly enjoyed exploring
+artificial intelligence. </p>
+    <img src="" alt="training the AI">
     
 </section>
 
 <section>
    <h2>Future Improvements</h2>
-   <h3>Feedback and Testing</h3>
-   <p>Feedback and Testing write up</p>
+   <h3>Feedback and Developement</h3>
+   <p>Running short on time, using more feedback for a further iteration is something that I regret. The feeback from testing the first version of my app, Sign It was useful 
+    because I was able to see that the art direction of this version was not satisfactory. I believe that I should further test the illustrations and usability of Hands Up with a larger research group.
+    In regard to testing, I should do performance tests. The current version is lagging because of large image files. This therefore ruins the UX.
+   </p>
+   <p>I also felt that I did not manage to encapsulate my desired UX because of the lacking development skills. I would like to restyle the application with better informed knowledge. I created wireframes before 
+    developing. This was a mistake because the process of navigation in React Native must be thought out. In order to get around features or scripting that I could not figure out, I made compromises to ensure working aspects but sacrificed design aspects in this sense.
+   </p>
    <h3>Expansion</h3>
    <ol>
-    <li>AI Intergration</li>
-    <li>Learning Material</li>
+    <li>AI Intergration <p>I would like to add functioning AI to the mobile app but I would also like to expand the capabilities of the AI by having it be a functioning test. 
+        I would also like to explore the construction of words. This would be a mix of NLP and computer vision to achieve this goal.
+    </p></li>
+    <li>Learning Material <p>There is a need to further populate the site with more content. This also means that there should be different levels of learning and support for this in the application.</p>
+<li>Profiles <p>creating user profiles and savable data would greatly improve the app. This would include frequency tracking of users learning and progress bars for lessons. I can also further encourage engagement by locking content by level, meaning that a user must finish inital level content to access other content.</p></li>
+    </li>
    </ol>
    <h3>Community Involvement</h3>
-   <ol><li>Monetization</li></ol>
+   <ol><li>Monetization <p>I believe that this app should not feature payments or ads because this product is enabling communication with the deaf community. For this reason, the improvement of the app should be able to get feedback from users for new words and ohrases that they desire.</p></li></ol>
 </section>
 <h2>Acknowledgements</h2>
 <p>  I would like to thank a few people who helped make this possible. Thank you to Sage Govender, Kanistha Jadoo-Francis and Gabriel Tidy for consulting me through the process and offering their hands to train some AI.
@@ -269,6 +285,36 @@ artificial intelligence.</p>
     Finally Kanistha for spending hours infront of a web camera posing for teachable machine and giving me feedback on the UX/UI. I would not have been able to create a project to be proud of without the support of my loved ones.
 </p>
 <h2>References</h2>
+<div class="csl-bib-body" style="line-height: 1.35; font-family: 'Lato'; margin-left: 20px; color: #190061 ">
+    <div class="csl-entry" style="margin-bottom: 1em;">Babich, N. (2020) <i>Red, White, and Blue</i>, <i>Medium</i>. Available at: <a href="https://medium.springboard.com/a-designers-guide-to-selecting-colors-for-your-product-9944756838d4">https://medium.springboard.com/a-designers-guide-to-selecting-colors-for-your-product-9944756838d4</a> (Accessed: 25 November 2022).</div>
+    <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=webpage&amp;rft.title=Red%2C%20White%2C%20and%20Blue&amp;rft.description=Seven%20rules%20about%20color%20palettes%20that%20everyone%20(including%20non-designers)%20should%20know&amp;rft.identifier=https%3A%2F%2Fmedium.springboard.com%2Fa-designers-guide-to-selecting-colors-for-your-product-9944756838d4&amp;rft.aufirst=Nick&amp;rft.aulast=Babich&amp;rft.au=Nick%20Babich&amp;rft.date=2020-05-30&amp;rft.language=en"></span>
+    <div class="csl-entry" style="margin-bottom: 1em;">Clifton, I.G. (2015) <i>Android User Interface Design: Implementing Material Design for Developers</i>. Addison-Wesley Professional.</div>
+    <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_id=urn%3Aisbn%3A978-0-13-419195-9&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Android%20User%20Interface%20Design%3A%20Implementing%20Material%20Design%20for%20Developers&amp;rft.publisher=Addison-Wesley%20Professional&amp;rft.aufirst=Ian%20G.&amp;rft.aulast=Clifton&amp;rft.au=Ian%20G.%20Clifton&amp;rft.date=2015-11-21&amp;rft.tpages=848&amp;rft.isbn=978-0-13-419195-9&amp;rft.language=en"></span>
+    <div class="csl-entry" style="margin-bottom: 1em;"><i>Color Reference · React Native</i> (no date). Available at: <a href="https://reactnative.dev/docs/colors">https://reactnative.dev/docs/colors</a> (Accessed: 14 November 2022).</div>
+    <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=webpage&amp;rft.title=Color%20Reference%20%C2%B7%20React%20Native&amp;rft.description=Components%20in%20React%20Native%20are%20styled%20using%20JavaScript.%20Color%20properties%20usually%20match%20how%20CSS%20works%20on%20the%20web.%20General%20guides%20on%20the%20color%20usage%20on%20each%20platform%20could%20be%20found%20below%3A&amp;rft.identifier=https%3A%2F%2Freactnative.dev%2Fdocs%2Fcolors&amp;rft.language=en"></span>
+    <div class="csl-entry" style="margin-bottom: 1em;"><i>Creating a React Native app - Hands-On Machine Learning with TensorFlow.js [Book]</i> (no date). Available at: <a href="https://www.oreilly.com/library/view/hands-on-machine-learning/9781838821739/b10ddd07-f05e-493e-bae3-896d07bb6ebc.xhtml">https://www.oreilly.com/library/view/hands-on-machine-learning/9781838821739/b10ddd07-f05e-493e-bae3-896d07bb6ebc.xhtml</a> (Accessed: 14 November 2022).</div>
+    <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=webpage&amp;rft.title=Creating%20a%20React%20Native%20app%20-%20Hands-On%20Machine%20Learning%20with%20TensorFlow.js%20%5BBook%5D&amp;rft.description=Creating%20a%20React%20Native%20app%20To%20create%20a%20React%20Native%20app%2C%20it%20is%20common%20to%20use%20the%20React%20Native%20CLI%20or%20Expo%20tool.%20The%20React%20Native%20CLI%20is%20an%20initial%20%E2%80%A6%20-%20Selection%20from%20Hands-On%20Machine%20Learning%20with%20TensorFlow.js%20%5BBook%5D&amp;rft.identifier=https%3A%2F%2Fwww.oreilly.com%2Flibrary%2Fview%2Fhands-on-machine-learning%2F9781838821739%2Fb10ddd07-f05e-493e-bae3-896d07bb6ebc.xhtml&amp;rft.language=en"></span>
+    <div class="csl-entry" style="margin-bottom: 1em;">David, R. <i>et al.</i> (2021) ‘TensorFlow Lite Micro: Embedded Machine Learning for TinyML Systems’, <i>Proceedings of Machine Learning and Systems</i>, 3, pp. 800–811.</div>
+    <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=TensorFlow%20Lite%20Micro%3A%20Embedded%20Machine%20Learning%20for%20TinyML%20Systems&amp;rft.jtitle=Proceedings%20of%20Machine%20Learning%20and%20Systems&amp;rft.volume=3&amp;rft.aufirst=Robert&amp;rft.aulast=David&amp;rft.au=Robert%20David&amp;rft.au=Jared%20Duke&amp;rft.au=Advait%20Jain&amp;rft.au=Vijay%20Janapa%20Reddi&amp;rft.au=Nat%20Jeffries&amp;rft.au=Jian%20Li&amp;rft.au=Nick%20Kreeger&amp;rft.au=Ian%20Nappier&amp;rft.au=Meghna%20Natraj&amp;rft.au=Tiezhen%20Wang&amp;rft.au=Pete%20Warden&amp;rft.au=Rocky%20Rhodes&amp;rft.date=2021-03-15&amp;rft.pages=800-811&amp;rft.spage=800&amp;rft.epage=811&amp;rft.language=en"></span>
+    <div class="csl-entry" style="margin-bottom: 1em;"><i>Fingerspelling with Machine Learning</i> (no date) <i>Fingerspelling with Machine Learning</i>. Available at: <a href="https://fingerspelling.xyz">https://fingerspelling.xyz</a> (Accessed: 1 December 2022).</div>
+    <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=webpage&amp;rft.title=Fingerspelling%20with%20Machine%20Learning&amp;rft.description=Fingerspelling.xyz%20uses%20your%20webcam%20and%20machine%20learning%20to%20analyze%20your%20hand%20shapes%20so%20you%20can%20learn%20to%20sign%20the%20American%20Sign%20Language%20alphabet.&amp;rft.identifier=https%3A%2F%2Ffingerspelling.xyz&amp;rft.language=en"></span>
+    <div class="csl-entry" style="margin-bottom: 1em;">Howard, A.G. <i>et al.</i> (2017) ‘MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications’. arXiv. Available at: <a href="http://arxiv.org/abs/1704.04861">http://arxiv.org/abs/1704.04861</a> (Accessed: 14 November 2022).</div>
+    <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=preprint&amp;rft.title=MobileNets%3A%20Efficient%20Convolutional%20Neural%20Networks%20for%20Mobile%20Vision%20Applications&amp;rft.description=We%20present%20a%20class%20of%20efficient%20models%20called%20MobileNets%20for%20mobile%20and%20embedded%20vision%20applications.%20MobileNets%20are%20based%20on%20a%20streamlined%20architecture%20that%20uses%20depth-wise%20separable%20convolutions%20to%20build%20light%20weight%20deep%20neural%20networks.%20We%20introduce%20two%20simple%20global%20hyper-parameters%20that%20efficiently%20trade%20off%20between%20latency%20and%20accuracy.%20These%20hyper-parameters%20allow%20the%20model%20builder%20to%20choose%20the%20right%20sized%20model%20for%20their%20application%20based%20on%20the%20constraints%20of%20the%20problem.%20We%20present%20extensive%20experiments%20on%20resource%20and%20accuracy%20tradeoffs%20and%20show%20strong%20performance%20compared%20to%20other%20popular%20models%20on%20ImageNet%20classification.%20We%20then%20demonstrate%20the%20effectiveness%20of%20MobileNets%20across%20a%20wide%20range%20of%20applications%20and%20use%20cases%20including%20object%20detection%2C%20finegrain%20classification%2C%20face%20attributes%20and%20large%20scale%20geo-localization.&amp;rft.identifier=http%3A%2F%2Farxiv.org%2Fabs%2F1704.04861&amp;rft.aufirst=Andrew%20G.&amp;rft.aulast=Howard&amp;rft.au=Andrew%20G.%20Howard&amp;rft.au=Menglong%20Zhu&amp;rft.au=Bo%20Chen&amp;rft.au=Dmitry%20Kalenichenko&amp;rft.au=Weijun%20Wang&amp;rft.au=Tobias%20Weyand&amp;rft.au=Marco%20Andreetto&amp;rft.au=Hartwig%20Adam&amp;rft.date=2017-04-16"></span>
+    <div class="csl-entry" style="margin-bottom: 1em;"><i>Machine Learning with TensorFlow.js in Expo React Native</i> (no date) <i>DEV Community 👩‍💻👨‍💻</i>. Available at: <a href="https://dev.to/peterklingelhofer/machine-learning-with-tensorflow-js-in-expo-react-native-2a90">https://dev.to/peterklingelhofer/machine-learning-with-tensorflow-js-in-expo-react-native-2a90</a> (Accessed: 14 November 2022).</div>
+    <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=webpage&amp;rft.title=Machine%20Learning%20with%20TensorFlow.js%20in%20Expo%20React%20Native&amp;rft.description=Introduction%20%20%20Machine%20learning%20is%20the%20study%20of%20computer%20algorithms%20that%20improve%20automatical...&amp;rft.identifier=https%3A%2F%2Fdev.to%2Fpeterklingelhofer%2Fmachine-learning-with-tensorflow-js-in-expo-react-native-2a90&amp;rft.language=en"></span>
+    <div class="csl-entry" style="margin-bottom: 1em;">Magongwa, L. (2010) ‘Deaf Education in South Africa’, <i>American Annals of the Deaf</i>, 155(4), pp. 493–496.</div>
+    <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Deaf%20Education%20in%20South%20Africa&amp;rft.jtitle=American%20Annals%20of%20the%20Deaf&amp;rft.volume=155&amp;rft.issue=4&amp;rft.aufirst=Lucas&amp;rft.aulast=Magongwa&amp;rft.au=Lucas%20Magongwa&amp;rft.date=2010&amp;rft.pages=493-496&amp;rft.spage=493&amp;rft.epage=496&amp;rft.issn=0002-726X"></span>
+    <div class="csl-entry" style="margin-bottom: 1em;"><i>Material Design</i> (no date) <i>Material Design</i>. Available at: <a href="https://m2.material.io/design/environment/light-shadows.html#shadows">https://m2.material.io/design/environment/light-shadows.html#shadows</a> (Accessed: 25 November 2022).</div>
+    <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=webpage&amp;rft.title=Material%20Design&amp;rft.description=Material%20surfaces%20cast%20shadows%20when%20they%20obstruct%20light%20sources.&amp;rft.identifier=https%3A%2F%2Fm2.material.io%2Fdesign%2Fenvironment%2Flight-shadows.html%23shadows&amp;rft.language=en"></span>
+    <div class="csl-entry" style="margin-bottom: 1em;"><i>Online Course: Deep Learning with React-Native &amp; Python - Build 7 AI Apps from Udemy</i> (no date) <i>Class Central</i>. Available at: <a href="https://www.classcentral.com/course/udemy-react-native-deep-learning-69880">https://www.classcentral.com/course/udemy-react-native-deep-learning-69880</a> (Accessed: 14 November 2022).</div>
+    <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=webpage&amp;rft.title=Online%20Course%3A%20Deep%20Learning%20with%20React-Native%20%26%20Python%20-%20Build%207%20AI%20Apps%20from%20Udemy&amp;rft.description=Build%207%20Cutting-Edge%20Deep%20Learning%20Mobile%20Applications%20with%20React-Native%20%26%20Python!&amp;rft.identifier=https%3A%2F%2Fwww.classcentral.com%2Fcourse%2Fudemy-react-native-deep-learning-69880&amp;rft.language=en"></span>
+    <div class="csl-entry" style="margin-bottom: 1em;"><i>REAL SA SIGN LANGUAGE DICTIONARY</i> (no date) <i>Real SASL</i>. Available at: <a href="https://www.realsasl.com/">https://www.realsasl.com/</a> (Accessed: 13 November 2022).</div>
+    <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=webpage&amp;rft.title=REAL%20SA%20SIGN%20LANGUAGE%20DICTIONARY&amp;rft.description=A%20Free%20Always%20Expanding%20Community%20Sign%20Language%20Dictionary%20of%20South%20African%20Sign%20Language&amp;rft.identifier=https%3A%2F%2Fwww.realsasl.com%2F&amp;rft.language=en-gb"></span>
+    <div class="csl-entry" style="margin-bottom: 1em;"><i>TensorFlow</i> (no date). Available at: <a href="https://www.tensorflow.org/">https://www.tensorflow.org/</a> (Accessed: 1 December 2022).</div>
+    <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=webpage&amp;rft.title=TensorFlow&amp;rft.description=An%20end-to-end%20open%20source%20machine%20learning%20platform%20for%20everyone.%20Discover%20TensorFlow's%20flexible%20ecosystem%20of%20tools%2C%20libraries%20and%20community%20resources.&amp;rft.identifier=https%3A%2F%2Fwww.tensorflow.org%2F&amp;rft.language=en"></span>
+    <div class="csl-entry"><i>User interface guidelines: 10 essential rules to follow - UX Design Institute</i> (2022). Available at: <a href="https://www.uxdesigninstitute.com/blog/10-user-interface-guidelines/">https://www.uxdesigninstitute.com/blog/10-user-interface-guidelines/</a> (Accessed: 1 December 2022).</div>
+    <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=webpage&amp;rft.title=User%20interface%20guidelines%3A%2010%20essential%20rules%20to%20follow%20-%20UX%20Design%20Institute&amp;rft.description=To%20make%20apps%2C%20websites%20or%20software%20as%20intuitive%20as%20possible%2C%20UI%20designers%20look%20to%20the%20essential%2010%20user%20interface%20guidelines.%20As%20we%20run%20through%20the%20guidelines%2C%20we%20dive%20into%20simple%20explanations%20and%20real-world%20examples%20of%20each%20one.&amp;rft.identifier=https%3A%2F%2Fwww.uxdesigninstitute.com%2Fblog%2F10-user-interface-guidelines%2F&amp;rft.date=2022-07-27&amp;rft.language=en-US"></span>
+  </div>
 </main>
 </body>
 </html>
